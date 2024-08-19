@@ -12,12 +12,12 @@ sudo apt update
 - Через файловый менеджер заливаем файлы (создаем папку в корне)
 - Переходим в папку проекта: cd /bot_template
 
-- Устанавливаем Node.js и пакетный менеджер npm
-sudo apt install nodejs
+- Устанавливаем Node.js и пакетный менеджер npm:
+sudo apt install nodejs     /
 sudo apt install npm
 
-- Обновим Node js и npm, после выполняем перезапуск сервера
-sudo npm install -g n 
+- Обновим Node js и npm, после выполняем перезапуск сервера:
+sudo npm install -g n       /
 sudo n stable
 
 - Заново подключаемся по ssh
